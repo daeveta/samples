@@ -1,0 +1,1 @@
+file = open('homework6.3.1.json', 'r')
