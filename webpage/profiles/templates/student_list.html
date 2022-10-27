@@ -1,0 +1,22 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+    <h1>Students list</h1>
+    {% if student %}
+        {% for el in student %}
+            <div class="alert alert-secondary">
+                <h5>{{ el.name }} {{ el.surname }}</h5>
+                <p>{{ el.grade }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <h5>There are no students!</h5>
+    {% endif %}
+
+{% endblock %}

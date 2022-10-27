@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+
+body {
+    background: #f6f6f6;
+    font-family: 'Gelasio', serif;
+}
+
+h1 {
+    color: #82172a;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h5 {
+    color:#82172a;
+    text-style: bolder;
+}
+
+form {
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    position: fixed;
+    top: 30%;
+    left: 35%;
+}
+
+.btn-success {
+    background: #82172a;
+    --bs-btn-hover-bg: black;
+    --bs-btn-border-color: black;
+    --bs-btn-active-bg: black;
+    margin: 15px;
+}
+
+block h3 {
+    text-align: center;
+    align-items: center;
+}
+
+div.block {
+    padding: 30px;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border: 1px solid #0a0a0a;
+    border-radius: 25px;
+    text-align: center;
+    margin: 15px;
+}
+
+.math {
+    font-size: 80px;
+    font-align: center;
+}
+
+.geo {
+    font-size: 80px;
+    font-align: center;
+}
+
+.bio {
+    font-size: 80px;
+    font-align: center;
+}
+
+.phy {
+    font-size: 80px;
+    font-align: center;
+}
+.lit {
+    font-size: 80px;
+    font-align: center;
+}
+
+.lang {
+    font-size: 80px;
+    font-align: center;
+}
